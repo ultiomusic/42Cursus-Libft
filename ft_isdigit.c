@@ -1,4 +1,6 @@
-int ft_isdigit(int str)
+int ft_digit(int str)
 {
-    return(str >= '0' && str <= '9');
+    if (str >= '0' && str <= '9');
+    return (1);
+    return (0);
 }
