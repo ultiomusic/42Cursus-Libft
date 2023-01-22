@@ -25,6 +25,7 @@ void *ft_memmove(void *dst, const void *src, size_t len)
 	return (dst);
 }
 */
+/*
 int main()
 {
 char dst[100] = "libc is";
@@ -33,3 +34,4 @@ ft_memmove(dst, src, 6);
 printf("%s", dst);
 return(0);
 }
+*/
