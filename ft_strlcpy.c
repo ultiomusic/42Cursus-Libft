@@ -21,10 +21,9 @@ size_t ft_strlcpy(char *dst, const char *src, size_t dstsize)
 }
 int main()
 {
-    char src[] = "lollillul";
-    char dst[5];
-
-    ft_strlcpy(dst,src, 5);
-    printf("%s", dst);
-    return (0);
+    char a1[]= "serkan";
+    char a2[] = "yusuf kamil";
+ 
+    printf("%zu", ft_strlcpy(a2, a1, 4));
+    printf("\n%s", a2);
 }

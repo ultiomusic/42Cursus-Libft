@@ -3,10 +3,6 @@
 
 void *ft_memmove(void *dst, const void *src, size_t len)
 {
-	return ft_memcpy(dst, src, len);
-}
-/*
-{
     char	*d;
 	char	*s;
 
@@ -24,14 +20,10 @@ void *ft_memmove(void *dst, const void *src, size_t len)
 		*d++ = *s++;
 	return (dst);
 }
-*/
-/*
 int main()
 {
-char dst[100] = "libc is";
-char src[100] = "the standart library";
-ft_memmove(dst, src, 6);	
-printf("%s", dst);
-return(0);
+    char a[6] = "serkan";
+    ft_memmove(a+1, a, 4);
+    printf("%s", a);
+	return (0);
 }
-*/

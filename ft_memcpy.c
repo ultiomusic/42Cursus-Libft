@@ -13,14 +13,10 @@ void	*ft_memcpy(void *dst, const void *src, size_t n)
 		*d++ = *s++;
 	return (dst);
 }
-/*
 int main()
 {
-	char dst[100] = "libc is";
-	char src[100] = "the standart library";
-
-	ft_memcpy(dst, src, sizeof(src));
-	printf("%s", dst);
+    char a[6] = "serkan";
+    ft_memcpy(a+1, a, 4);
+    printf("%s", a);
 	return (0);
 }
-*/

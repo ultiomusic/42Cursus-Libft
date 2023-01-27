@@ -9,10 +9,10 @@ typedef struct s_list
     struct s_list  *next;
 }   t_list;
 
-int ft_isalpha(int str);
-int ft_digit(int str);
-int ft_isalnum(int str);
-int ft_isprint(int str);
+int ft_isalpha(int c);
+int ft_isdigit(int c);
+int ft_isalnum(int c);
+int ft_isprint(int c);
 size_t  ft_strlen(const char *str);
 void    *ft_memset(void *b, int c, size_t len);
 void    ft_bzero(void *s, size_t n);

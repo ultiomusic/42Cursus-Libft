@@ -1,11 +1,11 @@
 #include "libft.h"
 #include <stdio.h>
 
-void ft_bzero(void *s, size_t n)
+void    ft_bzero(void *s, size_t n)
 {
-    ft_memset(s, 0, n);
+    ft_memset (s, 0, n);
 }
-
+/*
 int main()
 {
     char str[] = "Yasabirrrrrrr";
@@ -14,3 +14,4 @@ int main()
     printf("%s", str);
     return (0);
 }
+*/
