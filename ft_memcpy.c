@@ -11,6 +11,7 @@ void	*ft_memcpy(void *dst, const void *src, size_t n)
 		*d++ = *s++;
 	return (dst);
 }
+/*
 int main()
 {
     char a[6] = "serkan";
@@ -18,3 +19,4 @@ int main()
     printf("%s", a);
 	return (0);
 }
+*/

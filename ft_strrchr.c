@@ -19,6 +19,7 @@ char *ft_strrchr(const char *s, int c)
         return (0);
     return((char*)&s[k]);
 }
+/*
 int main()
 {
     const char str[] = "greencodia game studio";
@@ -26,3 +27,4 @@ int main()
     printf("%s", ft_strrchr(str, ch));
     return (0);
 }
+*/

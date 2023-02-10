@@ -1,5 +1,3 @@
-#include <stdio.h>
-
 size_t ft_strlcat(char *dst, const char *src, size_t dstsize)
 {
     size_t i;
@@ -18,9 +16,11 @@ size_t ft_strlcat(char *dst, const char *src, size_t dstsize)
     dst[i] = '\0';
     return (len);
 }
+/*
 int main()
 {
 char s1[] = "greencodia";
 char s2[] = "game studio";
 printf("%zu", ft_strlcat(s1, s2, 3)); 
 }
+*/

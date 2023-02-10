@@ -17,6 +17,7 @@ void *ft_memmove(void *dst, const void *src, size_t len)
 		*d++ = *s++;
 	return (dst);
 }
+/*
 int main()
 {
     char a[6] = "serkan";
@@ -24,3 +25,4 @@ int main()
     printf("%s", a);
 	return (0);
 }
+*/
