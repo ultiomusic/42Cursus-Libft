@@ -1,15 +1,13 @@
-#include <stdio.h>
-
-void *ft_memset(void *b, int c, size_t len)
+void *ft_memset(void *b, int c, size_t len) 
 {
-    char *str;
+    char *str; 
     size_t i;
 
     i = 0;
     str = (char *)b;
-    while (i < len)
+    while (i < len) 
     {
-        str[i] = c;
+        str[i] = c
         i++;
     }
     return (b);
@@ -17,7 +15,7 @@ void *ft_memset(void *b, int c, size_t len)
 /*
 int main()
 {
-    char str[100] = "Bilgisyarlarlaralralr";
+    char str[100] = "Bilgisyarlarlaralralr"; 
 
     ft_memset(str, 'x', 12 * sizeof(char));
     printf("%s", str);
