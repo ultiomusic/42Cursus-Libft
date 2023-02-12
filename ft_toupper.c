@@ -1,14 +1,20 @@
-int ft_toupper(int c)
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_toupper.c                                       :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: beeligul <beeligul@student.42.fr>          +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2023/02/11 14:49:18 by beeligul          #+#    #+#             */
+/*   Updated: 2023/02/12 17:26:45 by beeligul         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
+#include "libft.h"
+
+int	ft_toupper(int c)
 {
-    if (c >= 'a' && c <= 'z')
-    return (c - 32);
-    return (c);
+	if (c >= 'a' && c <= 'z')
+		return (c - 32);
+	return (c);
 }
-/*
-int main()
-{
-    char c = 'a';
-    printf("%c", ft_toupper(c));
-    return (0);
-}
-*/

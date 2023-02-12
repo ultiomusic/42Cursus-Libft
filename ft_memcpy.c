@@ -1,22 +1,27 @@
-void	*ft_memcpy(void *dst, const void *src, size_t n)
-{
-	char	*d;
-	const char	*s;
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_memcpy.c                                        :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: beeligul <beeligul@student.42.fr>          +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2023/02/11 14:50:19 by beeligul          #+#    #+#             */
+/*   Updated: 2023/02/12 17:33:15 by beeligul         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 
-	d = dst;
-	s = src;
-	if (!dst && !src)
-		return (0);
-	while (n--)
-		*d++ = *s++;
+#include "libft.h"
+
+void	*ft_memcpy(void *dst, const void *src, size_t len)
+{
+	unsigned char	*ptr_dest;
+	unsigned char	*ptr_src;
+
+	if ((!dst && !src) || !len)
+		return (dst);
+	ptr_dest = (unsigned char *)dst;
+	ptr_src = (unsigned char *)src;
+	while (len--)
+		*ptr_dest++ = *ptr_src++;
 	return (dst);
 }
-/*
-int main()
-{
-    char a[6] = "serkan";
-    ft_memcpy(a+1, a, 4);
-    printf("%s", a);
-	return (0);
-}
-*/

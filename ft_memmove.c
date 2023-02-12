@@ -1,6 +1,20 @@
-void *ft_memmove(void *dst, const void *src, size_t len)
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_memmove.c                                       :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: beeligul <beeligul@student.42.fr>          +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2023/02/11 14:50:16 by beeligul          #+#    #+#             */
+/*   Updated: 2023/02/12 17:25:28 by beeligul         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
+#include "libft.h"
+
+void	*ft_memmove(void *dst, const void *src, size_t len)
 {
-    char	*d;
+	char	*d;
 	char	*s;
 
 	d = (char *)dst;
@@ -17,12 +31,3 @@ void *ft_memmove(void *dst, const void *src, size_t len)
 		*d++ = *s++;
 	return (dst);
 }
-/*
-int main()
-{
-    char a[6] = "serkan";
-    ft_memmove(a+1, a, 4);
-    printf("%s", a);
-	return (0);
-}
-*/

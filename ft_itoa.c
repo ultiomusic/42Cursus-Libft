@@ -1,56 +1,60 @@
-int	len(int n)
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_itoa.c                                          :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: beeligul <beeligul@student.42.fr>          +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2023/02/11 14:50:27 by beeligul          #+#    #+#             */
+/*   Updated: 2023/02/11 15:39:26 by beeligul         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
+#include "libft.h"
+
+int	len(long nb)
 {
 	int	i;
 
 	i = 0;
-	if (n <= 0)
+	if (nb == 0)
 		i = 1;
-	while (n)
+	else if (nb < 0)
 	{
-		n /= 10;
+		nb = -nb;
+		i++;
+	}
+	while (nb > 0)
+	{
+		nb = nb / 10;
 		i++;
 	}
 	return (i);
 }
 
-char	*inttostr(int n, int *f)
-{
-	int		leng;
-	char	*str;
-
-	leng = len(n);
-	str = (char *)malloc((sizeof(char) * leng) + 1);
-	if (!str)
-		return (NULL);
-	if (n < 0)
-	{
-		*f = -1;
-		str[0] = '-';
-	}
-	str[leng] = 0;
-	return (str);
-}
-
 char	*ft_itoa(int n)
 {
-	char	*str;
+	long	nb;
+	char	*dizi;
 	int		i;
-	int		f;
 
-	f = 1;
-	i = len(n);
-	str = inttostr(n, &f);
-	if (!str)
+	nb = n;
+	i = len(nb);
+	dizi = (char *)malloc(sizeof(char) * (i + 1));
+	if (!dizi)
 		return (NULL);
-	if (n == 0)
+	dizi[i--] = '\0';
+	if (nb == 0)
+		dizi[0] = '0';
+	if (nb < 0)
 	{
-		*str = '0';
-		return (str);
+		dizi[0] = '-';
+		nb = -nb;
 	}
-	while (n)
+	while (nb > 0)
 	{
-		str[--i] = '0' + f * (n % 10);
-		n /= 10;
+		dizi[i--] = 48 + (nb % 10);
+		nb = nb / 10;
 	}
-	return (str);
+	return (dizi);
 }

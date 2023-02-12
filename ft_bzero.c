@@ -1,14 +1,18 @@
-void    ft_bzero(void *s, size_t n)
-{
-    ft_memset (s, 0, n);
-}
-/*
-int main()
-{
-    char str[] = "Yasabirrrrrrr";
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_bzero.c                                         :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: beeligul <beeligul@student.42.fr>          +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2023/02/11 14:50:45 by beeligul          #+#    #+#             */
+/*   Updated: 2023/02/12 17:24:54 by beeligul         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 
-    ft_bzero(str + 7, 1);
-    printf("%s", str);
-    return (0);
+#include "libft.h"
+
+void	ft_bzero(void *s, size_t n)
+{
+	ft_memset (s, 0, n);
 }
-*/

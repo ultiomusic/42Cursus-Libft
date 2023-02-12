@@ -1,24 +1,28 @@
-void *ft_memset(void *b, int c, size_t len) 
-{
-    char *str; 
-    size_t i;
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_memset.c                                        :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: beeligul <beeligul@student.42.fr>          +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2023/02/11 14:50:13 by beeligul          #+#    #+#             */
+/*   Updated: 2023/02/12 17:25:31 by beeligul         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 
-    i = 0;
-    str = (char *)b;
-    while (i < len) 
-    {
-        str[i] = c
-        i++;
-    }
-    return (b);
-}
-/*
-int main()
-{
-    char str[100] = "Bilgisyarlarlaralralr"; 
+#include "libft.h"
 
-    ft_memset(str, 'x', 12 * sizeof(char));
-    printf("%s", str);
-    return (0);
+void	*ft_memset(void *b, int c, size_t len)
+{
+	char	*str;
+	size_t	i;
+
+	i = 0;
+	str = (char *)b;
+	while (i < len)
+	{
+		str[i] = c;
+		i++;
+	}
+	return (b);
 }
-*/

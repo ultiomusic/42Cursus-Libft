@@ -1,19 +1,23 @@
-#include <stdio.h>
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_strlen.c                                        :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: beeligul <beeligul@student.42.fr>          +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2023/02/11 14:49:40 by beeligul          #+#    #+#             */
+/*   Updated: 2023/02/12 17:26:15 by beeligul         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 
-size_t ft_strlen(const char *str)
-{
-    size_t i;
+#include "libft.h"
 
-    i = 0;
-    while(str[i] != '\0')
-    i++;
-    return (i);
-}
-/*
-int main ()
+size_t	ft_strlen(const char *str)
 {
-    char str[] = "ya sabir ya rab";
-    printf("%zu", ft_strlen(str));
-    return (0);
+	size_t	i;
+
+	i = 0;
+	while (str[i] != '\0')
+		i++;
+	return (i);
 }
-*/

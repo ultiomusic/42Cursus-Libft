@@ -1,3 +1,17 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_strdup.c                                        :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: beeligul <beeligul@student.42.fr>          +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2023/02/11 14:49:54 by beeligul          #+#    #+#             */
+/*   Updated: 2023/02/11 14:49:54 by beeligul         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
+#include "libft.h"
+
 char	*ft_strdup(const char *src)
 {
 	char	*dup;
@@ -18,12 +32,3 @@ char	*ft_strdup(const char *src)
 	dup[i] = '\0';
 	return (dup);
 }
-
-/*
-int main()
-{
-    char str[] = "GreencodiaGameStudio";
-    printf("%s", ft_strdup(str));
-    return 0;
-}
-*/

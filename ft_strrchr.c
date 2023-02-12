@@ -1,30 +1,36 @@
-#include <stdio.h>
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_strrchr.c                                       :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: beeligul <beeligul@student.42.fr>          +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2023/02/11 14:49:30 by beeligul          #+#    #+#             */
+/*   Updated: 2023/02/12 18:06:57 by beeligul         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 
-char *ft_strrchr(const char *s, int c)
-{
-    int i;
-    int k;
+#include "libft.h"
 
-    i = 0;
-    k = -1;
-    while(s[i] != '\0')
-    {
-        if (s[i] == c)
-            k = i;
-        i++;
-    }
-    if (c == '\0')
-        return ((char *)&s[i]);
-    if (k == -1)
-        return (0);
-    return((char*)&s[k]);
-}
-/*
-int main()
+char	*ft_strrchr(const char *s, int c)
 {
-    const char str[] = "greencodia game studio";
-    const char ch = 'g';
-    printf("%s", ft_strrchr(str, ch));
-    return (0);
+	char	*ch;
+	int		check;
+
+	check = 0;
+	c = c % 256;
+	while (*s)
+	{
+		if (*s == (unsigned char)c)
+		{
+			ch = (char *)s;
+			++check;
+		}
+		++s;
+	}
+	if (check > 0)
+		return (ch);
+	else if (c == '\0')
+		return ((char *)s);
+	return (0);
 }
-*/
