@@ -11,6 +11,6 @@ int ft_isalnum(int c)
 int main()
 {
     char c = 'A';
-    printf("%c", ft_isalnum(c));
+    printf("%d", ft_isalnum(c));
     return (0);
 }
