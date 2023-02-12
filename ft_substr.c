@@ -25,7 +25,7 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 	if (len > ft_strlen(s))
 		len = ft_strlen(s);
 	str = (char *)malloc((len + 1) * sizeof(char));
-	if (!str || !s)
+	if (!str || !s) //!s gererksiz denenicek
 		return (NULL);
 	while (i <= ft_strlen(s) && len > k)
 	{
