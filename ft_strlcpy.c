@@ -6,7 +6,7 @@
 /*   By: beeligul <beeligul@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/11 14:49:45 by beeligul          #+#    #+#             */
-/*   Updated: 2023/02/12 17:38:22 by beeligul         ###   ########.fr       */
+/*   Updated: 2023/02/13 21:33:53 by beeligul         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,3 +30,13 @@ size_t	ft_strlcpy(char *dst, const char *src, size_t dstsize)
 	}
 	return (srcsize);
 }
+/*
+#include <stdio.h>
+int main()
+{
+	char a1[] = "serkan";
+	char a2[] = "yusuf kamil";
+	printf("%zu", ft_strlcpy(a2, a1, 4));
+	printf("\n%s", a2);
+}
+*/

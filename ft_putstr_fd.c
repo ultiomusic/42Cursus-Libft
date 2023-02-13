@@ -18,3 +18,15 @@ void	ft_putstr_fd(char *s, int fd)
 		return ;
 	write(fd, s, ft_strlen(s));
 }
+/*
+#include <fcntl.h>
+#include <stdio.h>
+int main()
+{
+	int fd;
+
+	fd = open("deneme2.txt", O_RDWR | O_CREAT, 777);
+	ft_putstr_fd("str", fd);
+	printf("%d", fd);
+}
+*/

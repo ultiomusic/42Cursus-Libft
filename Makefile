@@ -42,35 +42,13 @@ LIBC = ar rc
 OUT = ./a.out
 all: ${NAME}
 ${NAME}: ${OBJS}
-	${LIBC} ${NAME} ${OBJS}
+	@${LIBC} ${NAME} ${OBJS}
 
 .c.o:
-	${CC} ${CFLAGS} -c $< -o ${<:.c=.o}
+	@${CC} ${CFLAGS} -c $< -o ${<:.c=.o}
 clean:
 	@${RM} ${OBJS}
 fclean: clean
 	@${RM} ${NAME}
 re: fclean all
 .PHONY: all clean fclean re bonus
-
-/*
-Bu bir Makefile'dır ve bu belgede, bir C kütüphanesinin derlenmesi ve kurulması için aşamalar tanımlanmıştır.
-
-SRCS değişkeni, kütüphanede bulunan tüm C kaynak dosyalarının adını içerir.
-MAIN değişkeni, uygulamanın ana kaynak dosyasının adını içerir.
-OBJS değişkeni, C kaynak dosyalarından oluşan nesne dosyalarının adını içerir.
-NAME değişkeni, kütüphanenin adını içerir.
-CC değişkeni, derleme i
-network error
-in kullanılan C derleyicisinin adını belirtir.
-
-CFLAGS değişkeni, derleme için kullanılan seçenekleri belirtir.
-RM değişkeni, dosyaları silmek için kullanılan komutu belirtir.
-LIBC değişkeni, kütüphanenin oluşturulması için kullanılan komutu belirtir.
-OUT değişkeni, çalıştırılan uygulamanın adını belirtir.
-"all" hedefi, kütüphanenin derlenmesini ve oluşturulmasını sağlar.
-"clean" hedefi, oluşan nesne dosyalarını siler.
-"fclean" hedefi, nesne dosyalarını ve kütüphanenin adını siler.
-"re" hedefi, "fclean" hedefini çalıştırır ve ardından "all" hedefini çalıştırır.
-".PHONY" hedefi, belirtilen hedeflerin her zaman çalışmasını sağlar.
-*/

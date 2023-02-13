@@ -28,3 +28,14 @@ void	ft_putnbr_fd(int n, int fd)
 		ft_putchar_fd(n % 10 + '0', fd);
 	}
 }
+/*
+#include <fcntl.h>
+#include <stdio.h>
+int main()
+{
+	int c = 123;
+	int a;
+	a = open("deneme.txt", O_RDWR | O_CREAT, 777);
+	ft_putnbr_fd(c, a);
+}
+*/

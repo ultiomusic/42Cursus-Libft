@@ -24,3 +24,17 @@ void	ft_putendl_fd(char *s, int fd)
 		ft_putchar_fd ('\n', fd);
 	}
 }
+
+/*
+#include <fcntl.h>
+#include <stdio.h>
+int main()
+{
+	int fd;
+	char *str = "Life is good";
+	fd = open("test4.txt", O_RDWR);
+
+	ft_putendl_fd(str, fd);
+	return (0);
+}
+*/
