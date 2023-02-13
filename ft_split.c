@@ -75,3 +75,20 @@ char	**ft_split(char const *s, char c)
 	array[i] = NULL;
 	return (array);
 }
+
+/*
+countchar:
+Bu fonksiyon, bir dizedeki belirli bir karakteri sayar.
+İlk olarak, "delimit" değişkeni değerine göre, karakteri bulunana kadar dizi üzerinde gezilir ve bulduğu karakter sayısı döndürülür. Eğer delimit 0 ise, karakter bulunana kadar aynı karakteri bulunana kadar gezilir ve bulduğu karakter sayısı döndürülür.
+
+countword:
+Bu fonksiyon, bir metin dizesindeki kelime sayısını hesaplar.
+İlk olarak, metin dizesindeki ayraç karakteri bulunana kadar gezilir. Daha sonra, metin dizesindeki kelime bulunana kadar gezilir ve kelime sayısı arttırılır. Sonra aynı ayraç karakteri bulunana kadar gezilir ve tekrar kelime bulunana kadar gezilir.
+
+ft_split:
+Bu fonksiyon, verilen metin dizesini belirli bir ayraç karakteri kullanarak parçalara ayırır.
+İlk olarak, metin dizesi null ise null döndürür.
+Sonra, countword fonksiyonu ile metin dizesindeki kelime sayısı hesaplanır ve bunun için gereken yer ayarlanır.
+Daha sonra, i değişkeni 0 ile başlatılır ve kelime sayısı kadar devam edilir. Her seferinde, countchar fonksiyonu ile ayraç karakteri bulunana kadar gezilir ve ft_substr fonksiyonu ile kelime parçası dizi içine kaydedilir.
+Sonunda, dizinin son elemanı null olarak ayarlanır ve dizi döndürülür.
+*/
