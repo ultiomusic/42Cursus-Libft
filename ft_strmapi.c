@@ -33,3 +33,18 @@ char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 	str[i] = '\0';
 	return (str);
 }
+/*
+#include <stdio.h>
+char my_func(unsigned int i, char str)
+{
+ 	printf("bulunduğu index = %d oluşan char = %c\n", i, str);
+ 	return str;
+}
+int main()
+{
+ 	char *str = "hello.";
+ 	printf("sonuç %s\n", str);
+ 	printf("sonuç %s\n", ft_strmapi(str, my_func));
+ 	return 0;
+}
+*/

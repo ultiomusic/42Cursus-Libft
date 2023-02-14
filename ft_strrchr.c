@@ -6,7 +6,7 @@
 /*   By: beeligul <beeligul@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/11 14:49:30 by beeligul          #+#    #+#             */
-/*   Updated: 2023/02/12 18:06:57 by beeligul         ###   ########.fr       */
+/*   Updated: 2023/02/14 12:16:27 by beeligul         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,3 +34,13 @@ char	*ft_strrchr(const char *s, int c)
 		return ((char *)s);
 	return (0);
 }
+/*
+#include <stdio.h>
+int main()
+{
+	char *s  = "greencodia game studio";
+	char f = 'g';
+	printf("%s", ft_strrchr(s, f));
+	return (0);
+}
+*/

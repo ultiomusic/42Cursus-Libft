@@ -6,7 +6,7 @@
 /*   By: beeligul <beeligul@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/11 14:49:18 by beeligul          #+#    #+#             */
-/*   Updated: 2023/02/12 17:26:45 by beeligul         ###   ########.fr       */
+/*   Updated: 2023/02/14 13:43:08 by beeligul         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,3 +18,12 @@ int	ft_toupper(int c)
 		return (c - 32);
 	return (c);
 }
+/*
+#include <stdio.h>
+int main()
+{
+	char c = 'g';
+	printf("%c", ft_toupper(c));
+	return (0);	
+}
+*/

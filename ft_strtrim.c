@@ -6,7 +6,7 @@
 /*   By: beeligul <beeligul@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/11 14:49:26 by beeligul          #+#    #+#             */
-/*   Updated: 2023/02/12 17:51:05 by beeligul         ###   ########.fr       */
+/*   Updated: 2023/02/14 14:23:51 by beeligul         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,3 +29,13 @@ char	*ft_strtrim(char const *s1, char const *set)
 		return (ft_calloc(1, 1));
 	return (ft_substr(s1, bas, (son - bas + 1)));
 }
+/*
+#include <stdio.h>
+int main()
+{
+	char *s1 = "--greencodia--";
+	char *set = "-g";
+	printf("%s", ft_strtrim(s1, set));
+	return (0);
+}
+*/

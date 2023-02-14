@@ -51,7 +51,7 @@ size_t	countword(const char *str, char c)
 	return (word);
 }
 
-char	**ft_split(char const *s, char c)  
+char	**ft_split(char const *s, char c)
 {
 	char	**array;
 	size_t	word;
@@ -79,7 +79,7 @@ char	**ft_split(char const *s, char c)
 /*
 int main()
 {
-	char *str = "this is stirng";
+	char *str = "this is string";
 	char **arr;
 	arr = ft_split(str, ' ');
 	int i;

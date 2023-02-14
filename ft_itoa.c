@@ -58,3 +58,13 @@ char	*ft_itoa(int n)
 	}
 	return (dizi);
 }
+/*
+#include <stdio.h>
+int main()
+{
+	int n = 426;
+	printf("%s",ft_itoa(n));
+	printf("\n%d", n);
+	return (0);
+}
+*/

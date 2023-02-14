@@ -6,7 +6,7 @@
 /*   By: beeligul <beeligul@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/11 14:50:19 by beeligul          #+#    #+#             */
-/*   Updated: 2023/02/12 17:33:15 by beeligul         ###   ########.fr       */
+/*   Updated: 2023/02/14 15:24:22 by beeligul         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,14 +14,24 @@
 
 void	*ft_memcpy(void *dst, const void *src, size_t len)
 {
-	unsigned char	*ptr_dest;
-	unsigned char	*ptr_src;
+	unsigned char	*d;
+	unsigned char	*s;
 
 	if ((!dst && !src) || !len)
 		return (dst);
-	ptr_dest = (unsigned char *)dst;
-	ptr_src = (unsigned char *)src;
+	d = (unsigned char *)dst;
+	s = (unsigned char *)src;
 	while (len--)
-		*ptr_dest++ = *ptr_src++;
+		*d++ = *s++;
 	return (dst);
 }
+/*
+#include <stdio.h>
+int main()
+{
+	char dst[50] = "serkan";
+	char src[50] = "yusuf kamil";
+	printf("%s", ft_memcpy(dst, src, 5));
+	return (0);
+}
+*/

@@ -32,3 +32,12 @@ char	*ft_strdup(const char *src)
 	dup[i] = '\0';
 	return (dup);
 }
+/*
+#include <stdio.h>
+int main()
+{
+	char *str = "greencodia game studio";
+	printf("%s", ft_strdup(str));
+	return (0);
+}
+*/
