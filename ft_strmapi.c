@@ -38,7 +38,7 @@ char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 char my_func(unsigned int i, char c)
 {
  	printf("bulunduğu index = %d oluşan char = %c\n", i, c);
- 	return str;
+ 	return c;
 }
 int main()
 {
