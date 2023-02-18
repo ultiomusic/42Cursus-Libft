@@ -40,3 +40,17 @@ int main()
  	return 0;
 }
 */
+/*
+#include <stdio.h>
+void func(unsigned int i, char *str)
+{
+	printf("%c",ft_toupper(str[0]));
+}
+int main()
+{
+	
+	char *str = "greencodia";
+	ft_striteri(str, func);
+	return(0);
+}
+*/
