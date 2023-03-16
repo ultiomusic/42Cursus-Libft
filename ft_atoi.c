@@ -40,12 +40,3 @@ int	ft_atoi(const char *str)
 	}
 	return ((int)result);
 }
-/*
-#include <stdio.h>
-int main()
-{
-	char *c = "426";
-	printf("%d", ft_atoi(c));
-	return (0);
-}
-*/

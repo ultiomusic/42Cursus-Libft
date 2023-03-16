@@ -27,13 +27,3 @@ void	*ft_memchr(const void *s, int c, size_t n)
 	}
 	return (0);
 }
-/*
-#include <stdio.h>
-int main()
-{
-	const char s[] = "greencodia";
-	const char f = 'c';
-	printf("%s", ft_memchr(s, f, 6));
-	return(0);
-}
-*/

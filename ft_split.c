@@ -76,20 +76,3 @@ char	**ft_split(char const *s, char c)
 	array[i] = NULL;
 	return (array);
 }
-/*
-int main()
-{
-	char *str = "this is string";
-	char **arr;
-	arr = ft_split(str, ' ');
-	int i;
-
-	i = 0;
-	while(arr[i])
-	{
-		printf("%s\n", arr[i]);
-		i++;
-	}
-	return(0);
-}
-*/

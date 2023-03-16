@@ -29,13 +29,3 @@ char	*ft_strjoin(const char *s1, const char *s2)
 	ft_strlcpy(&ccat[s1len], s2, s2len + 1);
 	return (ccat);
 }
-/*
-#include <stdio.h>
-int main()
-{ 
-	char *s1 = "lalalaal";
-	char *s2= "lololo";
-	printf("%s", ft_strjoin(str, str2));
-	return(0);
-}
-*/

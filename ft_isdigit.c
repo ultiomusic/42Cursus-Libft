@@ -6,7 +6,7 @@
 /*   By: beeligul <beeligul@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/11 14:50:33 by beeligul          #+#    #+#             */
-/*   Updated: 2023/02/14 16:11:42 by beeligul         ###   ########.fr       */
+/*   Updated: 2023/02/15 14:03:55 by beeligul         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,13 +18,3 @@ int	ft_isdigit(int c)
 		return (1);
 	return (0);
 }
-/*
-#include <stdio.h>
-int main()
-{
-	char c1 = 'a';
-	char c2 = '6';
-	printf("%d", ft_isdigit(c1));
-	printf("\n%d", ft_isdigit(c2));
-}
-*/

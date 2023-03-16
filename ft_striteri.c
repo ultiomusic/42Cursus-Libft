@@ -25,32 +25,3 @@ void	ft_striteri(char *s, void (*f)(unsigned int, char*))
 		i++;
 	}
 }
-/*
-#include <stdio.h>
- void my_func(unsigned int i, char *str)
-{
-	 	printf("bulundugu index = %d oluşan string %s\n", i, str);
-}
-int main()
-{
-	char *str = "greencodia";
- 	printf("The result is %s\n", str);
- 	ft_striteri(str, my_func);
- 	printf("The result is %s\n", str);
- 	return 0;
-}
-*/
-/*
-#include <stdio.h>
-void func(unsigned int i, char *str)
-{
-	printf("%c",ft_toupper(str[0]));
-}
-int main()
-{
-	
-	char *str = "greencodia";
-	ft_striteri(str, func);
-	return(0);
-}
-*/

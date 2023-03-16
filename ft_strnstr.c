@@ -35,13 +35,3 @@ char	*ft_strnstr(const char *haystack, const char *needle, size_t len)
 	}
 	return (0);
 }
-/*
-#include <stdio.h>
-int main()
-{
-	const char *haystack = "Tutorials Point";
-	const char *neddle = "to";
-	printf("%s", ft_strnstr(haystack, neddle, 4));
-	return (0);
-}
-*/

@@ -37,11 +37,3 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 	str[k] = '\0';
 	return (str);
 }
-/*
-int main()
-{
-	char *str = "This is string.";
-	printf("^%s", ft_substr(str, 9, 2));
-	return (0);
-}
-*/
