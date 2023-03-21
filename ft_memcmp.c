@@ -29,3 +29,12 @@ int	ft_memcmp(const void *s1, const void *s2, size_t n)
 	}
 	return (0);
 }
+/*
+#include <stdio.h>
+int main()
+{
+	char *s1 = "istanbul";
+	char *s2 = "istAnbul";
+	printf("%d", ft_memcmp(s1, s2, 5));
+}
+*/

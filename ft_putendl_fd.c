@@ -24,3 +24,13 @@ void	ft_putendl_fd(char *s, int fd)
 		ft_putchar_fd ('\n', fd);
 	}
 }
+/*
+#include <fcntl.h>
+int main()
+{
+	int fd;
+	
+	fd = open("test.txt", O_CREAT | O_RDWR, 777);
+	ft_putendl_fd("istanbul", fd);
+ }
+ */

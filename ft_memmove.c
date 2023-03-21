@@ -6,7 +6,7 @@
 /*   By: beeligul <beeligul@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/11 14:50:16 by beeligul          #+#    #+#             */
-/*   Updated: 2023/02/15 14:04:07 by beeligul         ###   ########.fr       */
+/*   Updated: 2023/03/22 01:18:54 by beeligul         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,3 +31,11 @@ void	*ft_memmove(void *dst, const void *src, size_t len)
 		*d++ = *s++;
 	return (dst);
 }
+/*
+#include <stdio.h>
+int main()
+{
+	char dst[] = "merhaba";
+	printf("%s", ft_memmove(dst, dst+3, 4));
+}
+*/

@@ -40,3 +40,10 @@ int	ft_atoi(const char *str)
 	}
 	return ((int)result);
 }
+/*
+#include <stdio.h>
+int main()
+{
+	printf("%d", ft_atoi("42"));
+}
+*/

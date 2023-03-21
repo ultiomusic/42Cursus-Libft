@@ -6,7 +6,7 @@
 /*   By: beeligul <beeligul@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/11 14:50:19 by beeligul          #+#    #+#             */
-/*   Updated: 2023/02/18 13:35:58 by beeligul         ###   ########.fr       */
+/*   Updated: 2023/03/22 01:18:37 by beeligul         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,4 +24,11 @@ void	*ft_memcpy(void *dst, const void *src, size_t len)
 	while (len--)
 		*d++ = *s++;
 	return (dst);
+}/*
+#include <stdio.h>
+int main()
+{
+	char dst[] = "merhaba";
+	printf("%s", ft_memcpy(dst, dst+3, 4));
 }
+*/

@@ -27,3 +27,11 @@ void	*ft_memchr(const void *s, int c, size_t n)
 	}
 	return (0);
 }
+/*
+#include <stdio.h>
+int main()
+{
+	char *str = "greencodia";
+	printf("%s", ft_memchr(str, 'c', 8));
+}
+*/

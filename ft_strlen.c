@@ -6,7 +6,7 @@
 /*   By: beeligul <beeligul@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/11 14:49:40 by beeligul          #+#    #+#             */
-/*   Updated: 2023/02/15 14:04:38 by beeligul         ###   ########.fr       */
+/*   Updated: 2023/03/22 00:55:19 by beeligul         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,3 +21,10 @@ size_t	ft_strlen(const char *str)
 		i++;
 	return (i);
 }
+/*
+#include <stdio.h>
+int main()
+{
+	printf("%zu", ft_strlen("greencodia"));
+}
+*/

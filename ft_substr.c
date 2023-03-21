@@ -37,3 +37,11 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 	str[k] = '\0';
 	return (str);
 }
+/*
+#include <stdio.h>
+int main()
+{
+	char *str = "greencodia game studio";
+	printf("%s", ft_substr(str, 4, 5));
+}
+*/

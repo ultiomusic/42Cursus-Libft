@@ -33,3 +33,17 @@ char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 	str[i] = '\0';
 	return (str);
 }
+
+/*
+#include <stdio.h>
+char func(unsigned int i, char s)
+{
+	printf("index %d ve str %s", i , s);
+	return(char);
+}
+int main()
+{
+	char *str = "greencodia";
+	ft_strmapistr, func);
+}
+*/

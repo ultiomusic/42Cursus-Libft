@@ -28,3 +28,13 @@ void	ft_putnbr_fd(int n, int fd)
 		ft_putchar_fd(n % 10 + '0', fd);
 	}
 }
+/*
+#include <fcntl.h>
+int main()
+{
+	int fd;
+	
+	fd = open("test.txt", O_CREAT | O_RDWR, 777);
+	ft_putnbr_fd(42, fd);
+ }
+ */

@@ -6,7 +6,7 @@
 /*   By: beeligul <beeligul@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/12 17:21:34 by beeligul          #+#    #+#             */
-/*   Updated: 2023/02/15 14:03:49 by beeligul         ###   ########.fr       */
+/*   Updated: 2023/03/22 01:23:42 by beeligul         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,3 +20,12 @@ int	ft_isalnum(int c)
 	else
 		return (0);
 }
+/*
+#include <stdio.h>
+int main()
+{
+	printf("%d", ft_isalnum('a'));
+	printf("%d", ft_isalnum('9'));
+	printf("%d", ft_isalnum('+'));
+}
+*/

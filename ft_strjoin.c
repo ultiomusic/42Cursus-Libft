@@ -29,3 +29,12 @@ char	*ft_strjoin(const char *s1, const char *s2)
 	ft_strlcpy(&ccat[s1len], s2, s2len + 1);
 	return (ccat);
 }
+/*
+#include <stdio.h>
+int main()
+{
+	char *s1 = "greencodia";
+	char *s2 = "game studio";
+	printf("%s", ft_strjoin(s1,s2));
+}
+*/

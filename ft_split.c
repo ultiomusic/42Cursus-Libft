@@ -11,7 +11,6 @@
 /* ************************************************************************** */
 
 #include "libft.h"
-#include <stdio.h>
 
 size_t	countchar(const char *s, char c, int delimit)
 {
@@ -76,3 +75,19 @@ char	**ft_split(char const *s, char c)
 	array[i] = NULL;
 	return (array);
 }
+/*
+#include <stdio.h>
+int main()
+{
+	char *str = "this is the string";
+	char *arr = ft_split(str, ' ');
+	int i;
+
+	i = 0;
+	while(arr[i])
+	{
+		printf("%s", arr[i]);
+		i++;
+	}
+}
+*/

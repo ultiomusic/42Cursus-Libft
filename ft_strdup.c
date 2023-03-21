@@ -32,3 +32,11 @@ char	*ft_strdup(const char *src)
 	dup[i] = '\0';
 	return (dup);
 }
+/*
+#include <stdio.h>
+int main()
+{
+	char *src = "greencodia";
+	printf("%s",ft_strdup(src));
+}
+*/
