@@ -6,9 +6,11 @@
 /*   By: beeligul <beeligul@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/11 14:50:16 by beeligul          #+#    #+#             */
-/*   Updated: 2023/03/22 01:18:54 by beeligul         ###   ########.fr       */
+/*   Updated: 2023/03/22 05:36:27 by beeligul         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+//memmove -> verilen dizileri birbirine belirlenen uzunluk kadar taşıyarak kopyalar.
 
 #include "libft.h"
 

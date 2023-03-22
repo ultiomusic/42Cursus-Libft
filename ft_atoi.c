@@ -10,6 +10,8 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+// atoi -> ascii değerinde verilen bir diziyi sayıya, bir integer değere dönüştür.
+
 #include "libft.h"
 
 int	ft_atoi(const char *str)

@@ -10,6 +10,8 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+// calloc -> ram'dan alan ayırma işlemi yapar ve ayırdığı yerleri '0' yapar.
+
 #include "libft.h"
 
 void	*ft_calloc(size_t count, size_t size)

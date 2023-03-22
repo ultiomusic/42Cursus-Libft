@@ -10,6 +10,8 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+//substr -> verilen dizinin başlangıç indexinden başlayıp verilen uzunluk kadar gider.
+
 #include "libft.h"
 #include <stdio.h>
 

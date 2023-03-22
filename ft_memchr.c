@@ -10,6 +10,8 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+// memchr -> verilen dizide aranmasını istenen uzunluğun içinde verilen karakteri arar ve ilk bulduğu yeri verir.
+
 #include "libft.h"
 
 void	*ft_memchr(const void *s, int c, size_t n)

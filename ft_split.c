@@ -10,6 +10,8 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+// split -> verilen dizinin içinde belirtilen ayracı bularak dizilere ayırır.
+
 #include "libft.h"
 
 size_t	countchar(const char *s, char c, int delimit)

@@ -6,9 +6,11 @@
 /*   By: beeligul <beeligul@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/11 14:50:13 by beeligul          #+#    #+#             */
-/*   Updated: 2023/03/22 01:20:14 by beeligul         ###   ########.fr       */
+/*   Updated: 2023/03/22 05:27:39 by beeligul         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+// memset -> verilen diziye belirlen karakteri verilen uzunluk kadar yazdırır.
 
 #include "libft.h"
 

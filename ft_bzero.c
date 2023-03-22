@@ -6,9 +6,11 @@
 /*   By: beeligul <beeligul@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/11 14:50:45 by beeligul          #+#    #+#             */
-/*   Updated: 2023/03/22 01:26:24 by beeligul         ###   ########.fr       */
+/*   Updated: 2023/03/22 05:29:06 by beeligul         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+// bzero -> verilen diziye verilen uzunluk kadar '0' yazdırır.
 
 #include "libft.h"
 

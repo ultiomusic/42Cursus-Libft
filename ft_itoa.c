@@ -10,6 +10,8 @@
 /*                                                                            */
 /* ************************************************************************** */
 
+// itoa -> integer olarak verilen bir değeri ascii bir değere dönüştürür.
+
 #include "libft.h"
 
 int	len(long nb)

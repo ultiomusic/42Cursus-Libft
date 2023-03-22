@@ -6,9 +6,11 @@
 /*   By: beeligul <beeligul@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/11 14:50:19 by beeligul          #+#    #+#             */
-/*   Updated: 2023/03/22 01:18:37 by beeligul         ###   ########.fr       */
+/*   Updated: 2023/03/22 05:36:30 by beeligul         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+//memcpy -> verilen dizileri birbirine belirlenen uzunluk kadar kopyalar.
 
 #include "libft.h"
 

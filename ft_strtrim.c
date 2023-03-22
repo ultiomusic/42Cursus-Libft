@@ -6,9 +6,11 @@
 /*   By: beeligul <beeligul@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/11 14:49:26 by beeligul          #+#    #+#             */
-/*   Updated: 2023/03/22 01:05:02 by beeligul         ###   ########.fr       */
+/*   Updated: 2023/03/22 05:35:30 by beeligul         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+// strtrim -> verilen dizinin içinden istenilen dizi kadar baştan ve sonran kırpar. 
 
 #include "libft.h"
 

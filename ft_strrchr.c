@@ -6,9 +6,11 @@
 /*   By: beeligul <beeligul@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/11 14:49:30 by beeligul          #+#    #+#             */
-/*   Updated: 2023/03/22 01:03:47 by beeligul         ###   ########.fr       */
+/*   Updated: 2023/03/22 05:35:42 by beeligul         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+// strchr -> verilen dizinin içinde bir karakter arar, karakteri son gördüğü yerden sonraki kalan diziyi verir
 
 #include "libft.h"
 
