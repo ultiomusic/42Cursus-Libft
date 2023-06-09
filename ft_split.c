@@ -82,7 +82,7 @@ char	**ft_split(char const *s, char c)
 int main()
 {
 	char *str = "this is the string";
-	char *arr = ft_split(str, ' ');
+	char **arr = ft_split(str, ' ');
 	int i;
 
 	i = 0;
